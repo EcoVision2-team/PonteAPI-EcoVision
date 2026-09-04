@@ -22,13 +22,14 @@
 # Projeto (API) 
 Projeto pedagógico alicerçado na Metodologia API para ensino-aprendizado focado no desenvolvimento de competências e fundamentada nos pilares de aprendizado com problemas reais (RPBL), validação externa e mentalidade ágil. Uso de estratégias para entender o problema, conceber uma solução viável ao desenvolver e implementar o MVP seguido de sua operação (CDIO).
 
-Dentro desse contexto, foi desenvolvido um processo de tratamento e análise de dados utilizando Python no ambiente Google Colab, com foco na base de dados da RAIS (Relação Anual de Informações Sociais). Essa etapa tem como objetivo viabilizar o mapeamento do ecossistema industrial e de serviços da região de São José dos Campos por meio da transformação de dados brutos em informações estruturadas.
+Dentro desse contexto, esse projeto foi desenvolvido no contexto da disciplina de Aprendizagem por Projetos Integrados (API) do curso de Engenharia de Produção — 1º ano. O desafio proposto consiste no desenvolvimento, construção e testes de um protótipo de ponte capaz de vencer um vão livre de 80 cm, sem a utilização de apoios intermediários.
 
-O processo inclui a importação dos dados com a biblioteca pandas, a filtragem dos registros com base no recorte geográfico do município, a seleção de variáveis relevantes (como setor econômico, CNAE, vínculos empregatícios e indicadores salariais), além do tratamento de inconsistências e organização das informações. Posteriormente, os dados são agrupados e consolidados, permitindo identificar padrões, concentração de setores e principais atividades econômicas da região.
+A solução deve atender a requisitos relacionados às dimensões, massa, custo, materiais, segurança e desempenho estrutural. Além de suportar uma carga mínima de 5 kg durante pelo menos 60 segundos, o projeto busca desenvolver uma estrutura eficiente, considerando a relação entre a massa da ponte e a carga suportada.
 
-As informações tratadas servem como base para integração com o Power BI, onde são construídos dashboards interativos que possibilitam a análise visual dos dados, facilitando a interpretação e a tomada de decisão.
+Durante o desenvolvimento, serão aplicados conhecimentos de mecânica dos sólidos, resistência dos materiais, seleção de materiais, desenho técnico, planejamento de fabricação, análise de custos e metodologia de projetos.
 
-Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da Fatec SJC com definição das datas do kickoff e das sprint.
+Este repositório tem como objetivo documentar todas as etapas do projeto, desde a pesquisa e concepção da solução até a fabricação, realização dos ensaios e análise dos resultados.
+
 # Equipe
 |    Função     | Nome                                  |                                                                                                                                                      LinkedIn & GitHub                                                                                                                                                      |
 | :-----------: | :------------------------------------ | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -42,21 +43,14 @@ Os resultados dos projetos devem obedecer ao Aviso Legal disponível no site da 
 
 
 # Objetivo do Projeto
-Este projeto tem como objetivo mapear o ecossistema Industrial e de Serviços da Região de São José dos Campos visando:
-* Fornecer uma base organizada de dados que facilite a interpretação, análise e visualização das informações sobre o setor industrial local;
-* Identificar e organizar os principais setores e indústrias da cidade, possibilitando uma análise clara da composição industrial;
-* Mapear os diferentes agentes do ecossistema, permitindo visualizações estruturadas e comparações entre eles;
-* Analisar a distribuição e interações dos dados coletados, gerando insights sobre tendências, concentração setorial e áreas de destaque;
-* Avaliar indicadores econômicos e de atuação das indústrias, facilitar decisões estratégicas com base em dados concretos;
-* Consolidar todas as informações em um dashboard interativo, buscando proporcionar interpretação rápida, prática e acessível dos dados para diferentes usuários.
-
-
-## Tecnologias Utilizadas
-
-* Power BI
-* Microsoft Excel
-* Python (Colab)
-* Canva
+* Desenvolver um protótipo de ponte funcional que atenda aos requisitos estabelecidos no projeto.
+* Aplicar conceitos de mecânica dos sólidos e resistência dos materiais no desenvolvimento da estrutura.
+* Pesquisar e selecionar materiais considerando resistência, massa, custo e facilidade de fabricação.
+* Desenvolver uma solução estrutural eficiente e adequada às restrições do projeto.
+* Planejar e executar o processo de fabricação, buscando precisão e redução de desperdícios.
+* Realizar ensaios para avaliar o desempenho da ponte e identificar seus principais pontos críticos.
+* Comparar os resultados previstos durante o projeto com os resultados obtidos experimentalmente.
+* Registrar e organizar toda a evolução do projeto, garantindo a documentação das etapas no GitHub.
 
 
 
@@ -76,30 +70,14 @@ Este projeto tem como objetivo mapear o ecossistema Industrial e de Serviços da
 | 10 | Alta | Como tomador de decisões de políticas públicas quero visualizar indicadores de crescimento ou decrescimento durante os anos dos setores predominantes na cidade. | 22/mai | 2 |
 | 11 | Média | Como tomador de decisões de políticas públicas quero definir modelo, cor e layout | 24/maio | 2 |
 | 12 | Alta | Como tomador de decisões de políticas públicas quero incluir os anos de 2019 e 2020 da base de dados para visualizar de forma mais ampliada os crescimentos e descrescimentos dos vínculos empregatícios ativos.  | 05/jun | 3 |
-| 13 | Alta | Como tomador de decisões de políticas públicas, quero uma interface clara e intuitiva combinando todos os blocos dentro do dashboard. | 10/jun | 3 |
-
-# Tratamento e Filtragem de Dados (Python – Google Colab)
-Para viabilizar o mapeamento do ecossistema industrial e de serviços da região de São José dos Campos, foi desenvolvido um código em Python no ambiente Google Colab com o objetivo de realizar a extração, filtragem e tratamento dos dados provenientes da base RAIS (Relação Anual de Informações Sociais).
-
-Dísponivel em:
-https://colab.research.google.com/drive/1lq5vQ6udxyRsS2qs2T_-syoaOEGpHb-1?usp=sharing
-
-# Dashboard Power BI
-Painel interativo com os gráficos e dados econômicos consolidados de São José dos Campos.
-
-Dísponivel em:
-https://app.powerbi.com/view?r=eyJrIjoiMjg2MzIxYmYtZDEyNi00MjQxLTg1NjMtNGNhMzJjMjI0NmU2IiwidCI6ImVhYmU2NGM1LTY4ZjUtNGE3Ni04MzAxLTk1NzdhNjc5ZTQ0OSIsImMiOjR9&embedImagePlaceholder=true
-
-# Relatório
-Segue abaixo o link de acesso ao relatório referente ao projeto API. O documento foi elaborado para apresentar formalmente as informações relacionadas ao desenvolvimento do projeto.
-https://docs.google.com/document/d/1OZf7PDx3Z9G2c0eiYzp0lGQ-USWz8lcU/edit?usp=drivesdk&ouid=104110253598311846039&rtpof=true&sd=true
+| 13 | Alta | Como tomador de decisões de políticas públicas, quero uma interface clara e intuitiva combinando todos os blocos dentro do dashboard. | 10/jun | 
 
 # Registro das Sprints
 
 | Sprint            | Previsão   | Status   | Histórico |
 |-------------------|------------|----------|-----------|
-| 01                | 27/04/2026 | finalizado | [MVP](MVP/sp1.md)  |
-| 02                | 25/05/2026 | finalizado | [MVP](MVP/sp2.md)  |
-| 03                | 15/06/2026 | finalizado | [MVP](MVP/sp3.md)  |
-| Feira de Soluções | 25/06/2026 | a fazer  | [MVP](#)  |
+| 01                | 04/09/2026 | finalizado | [MVP](MVP/sp1.md)  |
+| 02                | ? | a fazer | [MVP](MVP/sp2.md)  |
+| 03                | ? | a fazer | [MVP](MVP/sp3.md)  |
+| Feira de Soluções | ? | a fazer  | [MVP](#)  |
 
