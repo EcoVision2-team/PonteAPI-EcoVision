@@ -4,9 +4,6 @@
 
 ![Status](https://img.shields.io/badge/status-em%20andamento-green)
 ![Projeto](https://img.shields.io/badge/API-Fatec%20SJC-blue)
-![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
-![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow)
-![Dados](https://img.shields.io/badge/Dados-RAIS-lightgrey)
 
 ## 📊 Projetos, construção e testes de pontes
 
