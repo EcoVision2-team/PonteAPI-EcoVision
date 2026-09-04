@@ -52,25 +52,36 @@ Este repositório tem como objetivo documentar todas as etapas do projeto, desde
 * Comparar os resultados previstos durante o projeto com os resultados obtidos experimentalmente.
 * Registrar e organizar toda a evolução do projeto, garantindo a documentação das etapas no GitHub.
 
-
-
 # Product Backlog
 
 | Rank | Prioridade | User Story | Estimativa | Sprint |
 |------|------------|------------|------------|--------|
-| 1 | Alta | Como tomador de decisões de políticas públicas, quero coletar dados da RAIS para analisar os dados do ecossistema produtivo dos principais setores de São José dos Campos. | 30/mar | 1 |
-| 2 | Alta | Como tomador de decisões de políticas públicas, quero entender a estrutura de dados para identificar variáveis relevantes. | 30/mar | 1 |
-| 3 | Alta | Como tomador de decisões de políticas públicas, quero importar os dados no Python e utilizando a biblioteca pandas realizar o tratamento das informações. | 10/abr | 1 |
-| 4 | Alta | Como tomador de decisões de políticas públicas, quero classificar as atividades econômicas predominantes (4 setores principais). | 10/abr | 1 |
-| 5 | Alta | Como tomador de decisões de políticas públicas, quero importar esses dados para o Github e conectar ao Power BI para visualização. | 17/abr | 1 |
-| 6 | Alta | Como tomador de decisões de políticas públicas, quero visualizar os principais setores industriais da região de São José dos Campos para análise. | 17/abr | 1 |
-| 7 | Alta | Como tomador de decisões de políticas públicas, quero criar painéis analíticos no Power BI para interpretar os dados. | 04/mai | 2 |
-| 8 | Alta | Como tomador de decisões de políticas públicas, quero um gráfico para visualização da distribuição geográfica dos setores produtivos na região. | 04/mai | 2 |
-| 9 | Alta | Como tomador de decisões de políticas públicas, quero visualizar indicadores econômicos e produtivos importantes. | 15/mai | 2 |
-| 10 | Alta | Como tomador de decisões de políticas públicas quero visualizar indicadores de crescimento ou decrescimento durante os anos dos setores predominantes na cidade. | 22/mai | 2 |
-| 11 | Média | Como tomador de decisões de políticas públicas quero definir modelo, cor e layout | 24/maio | 2 |
-| 12 | Alta | Como tomador de decisões de políticas públicas quero incluir os anos de 2019 e 2020 da base de dados para visualizar de forma mais ampliada os crescimentos e descrescimentos dos vínculos empregatícios ativos.  | 05/jun | 3 |
-| 13 | Alta | Como tomador de decisões de políticas públicas, quero uma interface clara e intuitiva combinando todos os blocos dentro do dashboard. | 10/jun | 
+| 1 | Alta | Quero pesquisar sobre pontes para compreender as alternativas estruturais disponíveis. | 3 | 1 |
+| 2 | Alta | Quero levantar os requisitos e restrições do projeto para garantir que a solução atenda às condições da atividade. | 3 | 1 |
+| 3 | Média | Quero estudar alternativas de solução para comparar diferentes tipos de ponte antes de escolher o modelo. | 3 | 1 |
+| 4 | Alta | Quero escolher o tipo de ponte mais adequado para orientar o desenvolvimento do protótipo. | 2 | 1 |
+| 5 | Alta | Quero justificar a solução escolhida para demonstrar as razões técnicas da decisão. | 2 | 1 |
+| 6 | Alta | Quero caracterizar, estudar e escolher os materiais para usar peças compatíveis com a ponte e suas solicitações. | 5 | 2 |
+| 7 | Alta | Quero realizar testes preliminares para justificar a escolha dos materiais e do tipo de ponte. | 5 | 2 |
+| 8 | Alta | Quero selecionar e testar os elementos de ligação para garantir que as juntas coladas não sejam o ponto fraco da ponte. | 5 | 2 |
+| 9 | Média | Quero elaborar croquis das soluções para visualizar a geometria, os apoios, o gancho e os elementos estruturais. | 3 | 2 |
+| 10 | Alta | Quero realizar cálculos preliminares para estimar reações, esforços e deslocamentos antes da fabricação. | 5 | 2 |
+| 11 | Alta | Quero prever o comportamento estrutural da solução para identificar regiões críticas e possíveis modos de falha. | 5 | 2 |
+| 12 | Alta | Quero produzir desenhos técnicos para orientar a fabricação e registrar a solução final. | 5 | 3 |
+| 13 | Alta | Quero elaborar o memorial de cálculo para documentar as hipóteses e verificar a solução estrutural. | 5 | 3 |
+| 14 | Alta | Quero preparar a lista de materiais para comprar e separar tudo o que será utilizado na construção. | 3 | 3 |
+| 15 | Média | Quero elaborar o orçamento para verificar se a solução respeita o limite de custo. | 2 | 3 |
+| 16 | Alta | Quero definir o processo de fabricação para construir a ponte com qualidade, repetibilidade e pouco desperdício. | 3 | 3 |
+| 17 | Média | Quero produzir gabaritos para repetir as laterais e manter a simetria da ponte. | 3 | 3 |
+| 18 | Alta | Quero elaborar o plano de ensaios para testar a ponte com segurança e registrar os resultados. | 3 | 3 |
+| 19 | Média | Quero registrar a fabricação para comprovar as etapas, as decisões e a qualidade da montagem. | 2 | 3 |
+| 20 | Alta | Quero apresentar o protótipo final da ponte para demonstrar a solução construída. | 2 | 4 |
+| 21 | Alta | Quero inspecionar a solução para verificar dimensões, massa, apoios, juntas e conformidade com os requisitos. | 3 | 4 |
+| 22 | Alta | Quero realizar o ensaio de carga para verificar se a ponte suporta a carga pontual central pelo tempo exigido. | 5 | 4 |
+| 23 | Média | Quero analisar a falha, caso ocorra, para identificar o elemento ou a ligação que limitou a estrutura. | 3 | 4 |
+| 24 | Alta | Quero comparar o comportamento previsto com o realizado para avaliar a qualidade do modelo e dos cálculos. | 3 | 4 |
+| 25 | Alta | Quero apresentar o projeto na feira de soluções para comunicar o processo, o protótipo e os resultados. | 3 | 4 |
+
 
 # Registro das Sprints
 
