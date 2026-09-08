@@ -1,6 +1,6 @@
 # EcoVision - O eco da inovação
 
-![image alt](https://github.com/EcoVision2-team/EcoVisionAPI/blob/main/EcoVisionLogo.jpeg)
+![image alt](https://github.com/EcoVision2-team/PonteAPI-EcoVision/blob/main/a4f01a35-aa72-4552-b4bc-676257d542bd.jpeg)
 
 ![Status](https://img.shields.io/badge/status-em%20andamento-green)
 ![Projeto](https://img.shields.io/badge/API-Fatec%20SJC-blue)
